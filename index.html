@@ -1,12 +1,24 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
   <head>
-    <script src="../d3.min.js"></script>
+    <title>Web Drawing</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
   </head>
   <body>
-    <div id="circle">
-      
-    </div>
-    <script src="./index.js"></script>
+    <svg viewBox="0 0 10 10">
+      <path d="M2 2 L8 8" />
+      <path d="M2 2 l1 1" id="path-1" />
+    </svg>
+    <svg viewBox="0 0 10 10">
+      <path d="M2 8 L8 2" />
+      <path d="M2 8 l1 -1" id="path-2" />
+    </svg>
+    <svg viewBox="0 0 10 10">
+      <path d="M2 2 L2 8" />
+      <path d="M2 2 L2 3" id="path-3" />
+      <path d="M2 2 L2 3" id="path-4" />
+      <path d="M2 2 L2 3" id="path-5" />
+    </svg>
   </body>
 </html>

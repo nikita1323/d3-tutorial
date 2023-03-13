@@ -1,0 +1,41 @@
+body {
+    overflow: hidden;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+svg {
+    width: 31%;
+    height: 31%;
+    background-color: wheat;
+    margin-bottom: 5%;
+}
+
+svg path {
+    stroke: black;
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+    fill: none;
+    transition: 1s;
+}
+
+body:hover #path-1 {
+    d: path("M2 8 L8 2");
+}
+
+body:hover #path-2 {
+    d: path("M2 2 L5 5");
+}
+
+body:hover #path-3 {
+    d: path("M2 8 L8 2");
+}
+
+body:hover #path-4 {
+    d: path("M8 2 L8 8");
+}
+
+body:hover #path-5 {
+    d: path("M4 2 L6 2");
+}
